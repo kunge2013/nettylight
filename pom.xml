@@ -28,7 +28,7 @@
   <packaging>pom</packaging>
   <version>5.0.0.Final-SNAPSHOT</version>
 
-  <name>Netty</name>
+  <name>nettylight</name>
   <url>https://netty.io/</url>
   <description>
     Netty is an asynchronous event-driven network application framework for
