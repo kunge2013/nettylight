@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/buffer/netty-buffer.iml" filepath="$PROJECT_DIR$/buffer/netty-buffer.iml" />
       <module fileurl="file://$PROJECT_DIR$/codec/netty-codec.iml" filepath="$PROJECT_DIR$/codec/netty-codec.iml" />
       <module fileurl="file://$PROJECT_DIR$/codec-http/netty-codec-http.iml" filepath="$PROJECT_DIR$/codec-http/netty-codec-http.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codec-redis/netty-codec-redis.iml" filepath="$PROJECT_DIR$/codec-redis/netty-codec-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/netty-common.iml" filepath="$PROJECT_DIR$/common/netty-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/dev-tools/netty-dev-tools.iml" filepath="$PROJECT_DIR$/dev-tools/netty-dev-tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/example/netty-example.iml" filepath="$PROJECT_DIR$/example/netty-example.iml" />

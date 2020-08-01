@@ -27,6 +27,8 @@ final class FastThreadLocalRunnable implements Runnable {
     @Override
     public void run() {
         try {
+            Class<? extends FastThreadLocalRunnable> aClass = this.getClass();
+            System.out.println("FastThreadLocalRunnable ===============" + aClass.getName());
             runnable.run();
         } finally {
             FastThreadLocal.removeAll();

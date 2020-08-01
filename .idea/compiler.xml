@@ -6,16 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="netty-example" />
         <module name="netty-handler" />
-        <module name="netty-resolver" />
+        <module name="netty-dev-tools" />
         <module name="netty-all" />
         <module name="netty-transport" />
         <module name="netty-codec-http" />
-        <module name="netty-buffer" />
+        <module name="netty-example" />
         <module name="netty-codec" />
+        <module name="netty-codec-redis" />
         <module name="netty-common" />
-        <module name="netty-dev-tools" />
+        <module name="netty-resolver" />
+        <module name="netty-buffer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="netty-buffer" target="1.8" />
       <module name="netty-codec" target="1.8" />
       <module name="netty-codec-http" target="1.8" />
+      <module name="netty-codec-redis" target="1.8" />
       <module name="netty-common" target="1.8" />
       <module name="netty-dev-tools" target="1.5" />
       <module name="netty-example" target="1.8" />
@@ -38,6 +40,7 @@
       <module name="netty-buffer" options="-Xlint:-options" />
       <module name="netty-codec" options="-Xlint:-options" />
       <module name="netty-codec-http" options="-Xlint:-options" />
+      <module name="netty-codec-redis" options="-Xlint:-options" />
       <module name="netty-common" options="-Xlint:-options" />
       <module name="netty-example" options="-Xlint:-options" />
       <module name="netty-handler" options="-Xlint:-options" />

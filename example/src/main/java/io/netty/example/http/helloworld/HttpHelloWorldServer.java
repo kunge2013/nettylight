@@ -16,10 +16,7 @@
 package io.netty.example.http.helloworld;
 
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelOption;
-import io.netty.channel.EventLoopGroup;
-import io.netty.channel.MultithreadEventLoopGroup;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioHandler;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
@@ -56,6 +53,12 @@ public final class HttpHelloWorldServer {
             b.group(bossGroup, workerGroup)
              .channel(NioServerSocketChannel.class)
              .handler(new LoggingHandler(LogLevel.INFO))
+                    .handler(new ChannelHandler() {
+                        @Override
+                        public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
+                            System.out.println("XXXXXXXXXXXXXX ========== ");
+                        }
+                    })
              .childHandler(new HttpHelloWorldServerInitializer(sslCtx));
 
             Channel ch = b.bind(PORT).sync().channel();

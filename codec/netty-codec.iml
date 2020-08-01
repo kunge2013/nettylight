@@ -16,7 +16,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="netty-transport" />
     <orderEntry type="module" module-name="netty-common" />
     <orderEntry type="library" name="Maven: org.jctools:jctools-core:3.0.0" level="project" />
     <orderEntry type="module" module-name="netty-buffer" />
